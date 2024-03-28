@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alarm clock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <img src="assets/download.png" alt="" style="height: 100px; width:100px;">
+        <div class="time"><h1>23:50:23</h1></div>
+        <div class="content">
+            <div class="select">
+                <select>
+                    <option value="Hour" selected hidden>Hour</option>
+                </select>
+            </div>
+            <div class="select">
+                <select>
+                    <option value="Minute" selected hidden>Minute</option>
+                </select>
+            </div>
+        </div>
+        <button>set alarm</button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
