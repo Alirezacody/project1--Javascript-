@@ -29,10 +29,15 @@ background-color: rgb(33, 33, 33);
     padding:20px;
 }
 
-.container h1{
+.container .time{
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 70px;
     color:white;
+}
+
+.container .content.disable{
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .content{
